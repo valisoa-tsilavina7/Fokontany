@@ -1,0 +1,20 @@
+{
+    "name": "valisoa/fokontany",
+    "autoload": {
+        "psr-4": {
+            "Routes\\":"routes/",
+            "App\\":"src/",
+            "Database\\":"database/"
+            
+        }
+    },
+    "authors": [
+        {
+            "name": "valisoa tsilavina",
+            "email": "anjaravalisoatsilavina@gmail.com"
+        }
+    ],
+    "require": {
+        "dompdf/dompdf": "^3.0"
+    }
+}

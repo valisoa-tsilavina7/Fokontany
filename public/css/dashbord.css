@@ -1,0 +1,2946 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/* ************* LE CONTAINER ******************** */
+
+.container
+{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0% 1%;
+}
+
+
+/* ******************le PARENT SECTION ********** */
+.container section
+{
+    width:100%;
+    height:100vh;
+    display: flex;
+    position: relative;
+}
+
+
+/* *********LEFT *********** */
+.container section .left
+{
+    width:17%;
+    height: 100%;
+    position: fixed;
+    top:0;
+    border-radius:10px;
+   box-shadow: 1px 1px 0.5vw black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+    padding:1%;
+}
+
+.container section .left div
+{
+    width:100%;
+    height:20%;
+    border-radius:10px;
+    background-color: aliceblue;
+    box-shadow: 1px 1px 0.5vw black;
+}
+
+
+/* ***************LE TITRE ************ */
+
+.container section .left div.titre
+{
+    width:100%;
+    height:10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container section .left div.titre h3
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *********RIGHT *********** */
+.container section .right
+{
+    width:100%;
+    margin-left: 20%;
+    padding:2% 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* ******* heder  */
+.container section .right .header
+{
+    position:fixed;
+    background-color:whitesmoke;
+    border-radius:10px;
+    box-shadow: 1px 1px 0.5vw black;
+    top:0%;
+    width:75%;
+    height:15%;
+    display: flex;
+    padding: 1%;
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.container section .right .header .logo
+{
+    /* background-color:green; */
+    width:50%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+    font-size:0.8em;
+   
+    font-style: italic;
+    
+
+}
+.container section .right .header .date
+{
+    /* background-color:aqua; */
+    width:30%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.6em;
+    font-weight: 200;  
+
+}
+
+
+.container section .right .header .user
+{
+    position: relative;
+    /* background-color:violet; */
+    width:20%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container section .right .header .user i
+{
+    z-index: 1;
+    cursor:pointer;
+}
+
+
+/* **********le DECONNEXION*********** */
+.container section .right .header .user div
+{
+    background-color: blue;
+    
+    position:absolute;
+    top:80%;
+    width:100%;
+    height:100%;
+    display: none;
+    font-size: 2vw;
+}
+.container section .right .header .user div ul
+{
+    font-size: 0.7em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+}
+
+.container section .right .header .user div ul li
+{
+    background-color: aqua;
+    width:100%;
+    height:40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container section .right .header .user div ul li a
+{
+  color: crimson;
+}
+
+.container section .right .header .user div ul li:hover
+{
+    background-color: blue;
+
+    
+}
+
+
+
+
+
+
+
+
+/* /*******************************LE CONTENT *************** */
+.container section .right .content
+{
+
+    padding: 4% 2%;
+    width:100%;
+
+    margin-top:100px;
+    
+    padding:0.4%;
+}
+
+
+
+.container section .right .content .presentation
+{
+    width:100%;
+
+    border-radius:10px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    padding:3%;
+    box-shadow: 1px 1px 0.5vw black;
+    margin-bottom: 2%;
+
+}
+
+.container section .right .content .element
+{
+    width:300px;
+
+    height:200px;
+    margin-bottom:3%;
+
+    border-radius:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:whitesmoke;
+    box-shadow:2px 2px 0.4vw black;
+}
+.container section .right .content .element h3
+{
+    font-size:2.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container section .right .content .element:nth-child(1)
+{
+    
+    background: url("Madagascar/image14.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+   
+}
+
+.container section .right .content .element:nth-child(2)
+{
+    
+    background: url("Madagascar/paysage2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+   
+}
+
+.container section .right .content .element:nth-child(3)
+{
+    
+    background: url("Madagascar/paysage5.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+   
+}
+
+.container section .right .content .element:nth-child(4)
+{
+    
+    background: url("Madagascar/paysage4.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+   
+}
+
+.container section .right .content table .col-left
+{
+    padding-left:1%;
+}
+
+/* ****************LISTE FAMILLE  */
+
+.container section .right .content .listeFamille
+{
+   border-radius:10px;
+   box-shadow: 1px 1px 0.5vw black;
+    margin-bottom: 2%;
+    padding: 4% 2%;
+    width:100%;
+    padding: 1% 3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container section .right .content .listeFamille .titreTable
+{
+    font-size:2vw;
+    background-color: aliceblue;
+    padding-left:1%;
+    border-radius:10px;
+    box-shadow:1px 1px 0.5vw black;
+    height:10vh;
+    display: flex;
+    align-items: center;
+    margin-bottom:2%;
+    
+}
+
+.container section .right .content .listeFamille .titreTable a
+{
+    font-size:1.5vw;
+    background-color: aliceblue;
+    padding-left:1%;
+    border-radius:10px;
+    box-shadow:1px 1px 0.5vw black;
+    height:5vh;
+    width:30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:20%;
+    
+}
+
+
+.container section .right .content .listeFamille table
+{
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.4vw;
+    background-color: aliceblue;
+    padding-left:1%;
+    border-radius:10px;
+    box-shadow:1px 1px 0.5vw black;
+    overflow: hidden;
+}
+
+.container section .right .content .listeFamille table tr
+{
+    height: 8vh;
+
+}
+.container section .right .content .listeFamille table .titre
+{
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.4vw;
+    background-color: aliceblue;
+    padding-left:1%;
+    border-radius:10px;
+    box-shadow:1px 1px 0.5vw black;
+    height: 10vh;
+}
+
+.container section .right .content .listeFamille table .col-2
+{
+ 
+    width:20%;
+}
+.container section .right .content .listeFamille table .col-3
+{
+  
+    width:30%;
+}
+
+.container section .right .content .listeFamille table .col
+{
+    padding:0% 2%;
+    padding-left:0;
+    font-size:1vw;
+}
+
+.container section .right .content .listeFamille table .lot
+{
+    text-transform: uppercase;
+}
+
+.container section .right .content .listeFamille table .pere,
+.container section .right .content .listeFamille table .mere
+
+{
+    text-transform:capitalize;
+}
+
+
+
+.container section .right .content .listeFamille table .action
+{
+    margin-top: 10%;
+   display:flex;
+   align-items: center;
+   justify-content:space-evenly;
+}
+
+.container section .right .content .listeFamille table .action .voir
+{
+    width:50%;
+    height:30px;
+    font-size: 1vw;
+    background-color:white;
+    color: wheat;
+    border: 1px solid black;
+    border-radius:1px;
+    font-weight: bolder;
+}
+.container section .right .content .listeFamille table .action .voir a
+{
+    color:black;
+    border: 0;
+}
+.container section .right .content .listeFamille table .action  form
+{
+    width:40%;
+    height:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+   
+    
+}
+
+.container section .right .content .listeFamille table .action  form button
+{
+   font-size: 2vw;
+   background-color: transparent;
+   color: red;
+   border: 0;
+   cursor: pointer;
+    
+}
+
+
+
+
+/* ******************************LISTE SECTEURS  */
+
+.container section .right .content .listeSecteur
+{
+    border-radius:10px;
+    box-shadow: 1px 1px 0.5vw black;
+
+    padding: 4% 2%;
+    width:100%;
+    padding: 1% 3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+.container section .right .content .listeSecteur .titreTable
+{
+    font-size:2vw;
+    background-color: aliceblue;
+    padding-left:1%;
+    border-radius:10px;
+    box-shadow:1px 1px 0.5vw black;
+    height:10vh;
+    display: flex;
+    align-items: center;
+    margin-bottom:2%;
+    
+}
+
+.container section .right .content .listeSecteur .titreTable a
+{
+    font-size:1.5vw;
+    background-color: aliceblue;
+    padding-left:1%;
+    border-radius:10px;
+    box-shadow:1px 1px 0.5vw black;
+    height:5vh;
+    width:30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:20%;
+    
+}
+
+
+.container section .right .content .listeSecteur table
+{
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.4vw;
+    background-color: aliceblue;
+    padding-left:1%;
+    border-radius:10px;
+    box-shadow:1px 1px 0.5vw black;
+    overflow: hidden;
+}
+
+.container section .right .content .listeSecteur table tr
+{
+    height: 8vh;
+
+}
+.container section .right .content .listeSecteur table .titre
+{
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.4vw;
+    background-color: aliceblue;
+    padding-left:1%;
+    border-radius:10px;
+    box-shadow:1px 1px 0.5vw black;
+    height: 10vh;
+}
+
+.container section .right .content .listeSecteur table .col-2
+{
+ 
+    width:20%;
+}
+.container section .right .content .listeSecteur table .col-3
+{
+  
+    width:30%;
+}
+
+.container section .right .content .listeSecteur table .col
+{
+    padding:0% 2%;
+    padding-left:0;
+    font-size:1vw;
+}
+
+.container section .right .content .listeSecteur table .lot
+{
+    text-transform: uppercase;
+}
+
+.container section .right .content .listeSecteur table .pere,
+.container section .right .content .listeSecteur table .mere
+
+{
+    text-transform:capitalize;
+}
+
+
+
+.container section .right .content .listeSecteur table .action
+{
+    margin-top: 5%;
+    display:flex;
+   align-items: center;
+   justify-content:space-evenly;
+}
+
+.container section .right .content .listeSecteur table .action .voir
+{
+    width:40%;
+    height:30px;
+    font-size: 1vw;
+    background-color:white;
+    color: wheat;
+    border: 1px solid black;
+    border-radius:1px;
+    font-weight: bolder;
+}
+.container section .right .content .listeSecteur table .action .voir a
+{
+    color:black;
+    border: 0;
+}
+.container section .right .content .listeSecteur table .action  form
+{
+    width:40%;
+    height:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+   
+    
+}
+
+.container section .right .content .listeSecteur table .action  form button
+{
+   font-size: 2vw;
+   background-color: transparent;
+   color: red;
+   border: 0;
+   cursor: pointer;
+    
+}
+
+
+
+
+/* *************************VOIR PROFIL FOKONTANY ************** */
+.container section .right .content .voirProfilFokontany
+{
+    border-radius:10px;
+    box-shadow: 1px 1px 0.5vw black;
+
+    padding: 4% 2%;
+    width:100%;
+    height:60vh;
+    padding: 1% 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+
+.container section .right .content .voirProfilFokontany .titreTable
+{
+    font-size:2vw;
+    background-color: aliceblue;
+    padding-left:1%;
+    border-radius:10px;
+    box-shadow:1px 1px 0.5vw black;
+    height:10vh;
+    display: flex;
+    align-items: center;
+    margin-bottom:2%;
+
+    font-size: 1.3vw;
+    
+}
+
+
+.container section .right .content .voirProfilFokontany  table
+{
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.4vw;
+    background-color: aliceblue;
+    padding-left:1%;
+    border-radius:10px;
+    box-shadow:1px 1px 0.5vw black;
+    overflow: hidden;
+}
+
+.container section .right .content .voirProfilFokontany  table tr
+{
+    height: 8vh;
+
+}
+.container section .right .content .voirProfilFokontany  table .titre
+{
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.4vw;
+    background-color: aliceblue;
+    padding-left:1%;
+    border-radius:10px;
+    box-shadow:1px 1px 0.5vw black;
+    height: 10vh;
+}
+
+.container section .right .content .voirProfilFokontany  table .col-2
+{
+ 
+    width:20%;
+}
+.container section .right .content .voirProfilFokontany  table .col-3
+{
+  
+    width:30%;
+}
+
+.container section .right .content .voirProfilFokontany  table .col
+{
+    padding:0% 2%;
+    padding-left:0;
+    font-size:1vw;
+}
+
+.container section .right .content .voirProfilFokontany  table .col
+{
+    text-transform: uppercase;
+}
+
+.container section .right .content .voirProfilFokontany  table button
+{
+    width:40%;
+    height:30px;
+    font-size: 1vw;
+}
+
+.container section .right .content .voirProfilFokontany  .date
+{
+   width:100%;
+   height:100px;
+   margin-top: 2%;
+
+   font-size: 1.2vw;
+   padding-left: 2%;
+   
+}
+.container section .right .content .voirProfilFokontany  .date h4
+{
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 550;
+   margin-top: 2%;
+}
+
+
+
+
+
+
+/* ****************************EDIT PROFIL FOKONTANY ******* */
+
+.container section .right .content .editProfilFokontany
+{
+    border-radius:10px;
+    box-shadow: 1px 1px 0.5vw black;
+
+    padding: 4% 2%;
+    width:100%;
+
+
+    height:100vh;
+    padding: 1% 3%;
+    margin-top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+
+.container section .right .content .editProfilFokontany .error
+{
+   width:80%;
+   height:40%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.container section .right .content .editProfilFokontany .error p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vw;
+    font-weight: 400;
+    width:100%;
+    color:wheat;
+    background-color: rgba(220, 20, 60, 0.897);
+    margin-top:1%;
+    padding:1%;
+    border-radius:0.2vw;
+}
+
+
+.container section .right .content .editProfilFokontany  form
+{
+   width:80%;
+   margin-top: 2%;
+   height:40%;
+  
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content:space-evenly;
+}
+
+.container section .right .content .editProfilFokontany  form .elements
+{
+    width: 100%;
+    height:15%;
+    display: flex;
+  
+}
+
+
+.container section .right .content .editProfilFokontany  form .elements label
+{
+    width:40%;
+    height:90%;
+    display: flex;
+    align-items: center;
+    font-size:1.2vw;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container section .right .content .editProfilFokontany  form .elements input
+{
+    width:60%;
+    height:90%;
+    font-size: 1.1vw;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border:0;
+    border-radius:5px;
+    padding:1% 2%;
+    box-shadow: 1px 1px 0.3vw black;
+}
+
+.container section .right .content .editProfilFokontany  form .elements button
+{
+    width:100%;
+    height:90%;
+    font-size:1.2vw;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border:0;
+    border-radius:0.2vw;
+    padding:1% 2%;
+    box-shadow: 1px 1px 0.3vw black;
+}
+
+
+.container section .right .content .editProfilFokontany  .passwords
+{
+    width:80%;
+    height:8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container section .right .content .editProfilFokontany  .passwords button
+{
+    width:80%;
+    height:80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px black solid;
+    border-radius: 0.2vw;
+    font-size: 1.2vw;
+}
+
+
+
+
+
+
+
+/* ********************* EDIT PASSWORD FOKONTANY *********** */
+
+.container section .right .content .editPasswordFokontany
+{
+    border-radius:10px;
+    box-shadow: 1px 1px 0.5vw black;
+
+    padding: 4% 2%;
+    width:100%;
+
+
+    height:80vh;
+    padding: 1% 3%;
+    margin-top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+
+.container section .right .content .editPasswordFokontany .error
+{
+   width:80%;
+   height:30%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.container section .right .content .editPasswordFokontany .error p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vw;
+    font-weight: 400;
+    width:100%;
+    color:wheat;
+  
+    margin-top:1%;
+    padding:1%;
+    border-radius:0.2vw;
+}
+
+
+.container section .right .content .editPasswordFokontany  form
+{
+   width:80%;
+   margin-top: 2%;
+   height:60%;
+  
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content:space-evenly;
+}
+
+.container section .right .content .editPasswordFokontany  form .elements
+{
+    width: 100%;
+    height:15%;
+    display: flex;
+  
+}
+
+
+
+.container section .right .content .editPasswordFokontany  form .elements label
+{
+    width:40%;
+    height:90%;
+    display: flex;
+    align-items: center;
+    font-size:1.2vw;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container section .right .content .editPasswordFokontany  form .elements input
+{
+    width:60%;
+    height:90%;
+    font-size: 1.1vw;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border:0;
+    border-radius:5px;
+    padding:1% 2%;
+    box-shadow: 1px 1px 0.3vw black;
+}
+
+.container section .right .content .editPasswordFokontany  form .elements button
+{
+    width:100%;
+    height:90%;
+    font-size:1.2vw;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border:0;
+    border-radius:0.2vw;
+    padding:1% 2%;
+    box-shadow: 1px 1px 0.3vw black;
+}
+
+
+.container section .right .content .editPasswordFokontany  .passwords
+{
+    width:80%;
+    height:8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container section .right .content .editPasswordFokontany  .passwords button
+{
+    width:80%;
+    height:80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px black solid;
+    border-radius: 0.2vw;
+    font-size: 1.2vw;
+}
+
+
+
+
+
+
+
+/* ********************************** VOIR SECTEUR ****************** */
+
+.container section .right .content .voirSecteur
+{
+    border-radius:10px;
+    box-shadow: 1px 1px 0.5vw black;
+
+    padding: 4% 2%;
+    width:100%;
+    padding: 1% 3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+.container section .right .content .voirSecteur .titreTable
+{
+    font-size:2vw;
+    background-color: aliceblue;
+    padding-left:1%;
+    border-radius:10px;
+    box-shadow:1px 1px 0.5vw black;
+    height:10vh;
+    display: flex;
+    align-items: center;
+    margin-bottom:2%;
+    
+}
+
+.container section .right .content .voirSecteur .titreTable a
+{
+    font-size:1.5vw;
+    background-color: aliceblue;
+    padding-left:1%;
+    border-radius:10px;
+    box-shadow:1px 1px 0.5vw black;
+    height:5vh;
+    width:30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:20%;
+    
+}
+
+
+.container section .right .content .voirSecteur table
+{
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.4vw;
+    background-color: aliceblue;
+    padding-left:1%;
+    border-radius:10px;
+    box-shadow:1px 1px 0.5vw black;
+    overflow: hidden;
+}
+
+.container section .right .content .voirSecteur table tr
+{
+    height: 8vh;
+
+}
+.container section .right .content .voirSecteur table .titre
+{
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.4vw;
+    background-color: aliceblue;
+    padding-left:1%;
+    border-radius:10px;
+    box-shadow:1px 1px 0.5vw black;
+    height: 10vh;
+}
+
+.container section .right .content .voirSecteur table .col-2
+{
+ 
+    width:20%;
+}
+.container section .right .content .voirSecteur table .col-3
+{
+  
+    width:30%;
+}
+
+.container section .right .content .voirSecteur table .col
+{
+    padding:0% 2%;
+    padding-left:0;
+    font-size:1vw;
+}
+
+.container section .right .content .voirSecteur table .lot
+{
+    text-transform: uppercase;
+}
+
+.container section .right .content .listeSecteur table .pere,
+.container section .right .content .voirSecteur table .mere
+
+{
+    text-transform:capitalize;
+}
+
+
+
+.container section .right .content .voirSecteur table .action
+{
+    margin-top: 5%;
+    display:flex;
+   align-items: center;
+   justify-content:space-evenly;
+}
+
+.container section .right .content .voirSecteur table .action .voir
+{
+    width:40%;
+    height:30px;
+    font-size: 1vw;
+    background-color:white;
+    color: wheat;
+    border: 1px solid black;
+    border-radius:1px;
+    font-weight: bolder;
+}
+.container section .right .content .voirSecteur table .action .voir a
+{
+    color:black;
+    border: 0;
+}
+.container section .right .content .voirSecteur table .action  form
+{
+    width:40%;
+    height:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+   
+    
+}
+
+.container section .right .content .voirSecteur table .action  form button
+{
+   font-size: 2vw;
+   background-color: transparent;
+   color: red;
+   border: 0;
+   cursor: pointer;
+    
+}
+
+
+
+
+
+/* ***********************CREER SECTEUR ************ */
+
+.container section .right .content .creerSecteur
+{
+    border-radius:10px;
+    box-shadow: 1px 1px 0.5vw black;
+
+    padding: 4% 2%;
+    width:100%;
+    height: 60vh;
+    padding: 1% 3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container section .right .content .creerSecteur .titre
+{
+    width:100%;
+    height:20%;
+    background-color: aqua;
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.container section .right .content .creerSecteur .titre
+{
+    font-size:2vw;
+    background-color: aliceblue;
+    padding-left:1%;
+    border-radius:10px;
+    box-shadow:1px 1px 0.5vw black;
+    height:10vh;
+    display: flex;
+    align-items: center;
+    margin-bottom:2%;
+    
+}
+
+.container section .right .content .creerSecteur .titre a
+{
+    font-size:1.5vw;
+    background-color: aliceblue;
+    padding-left:1%;
+    border-radius:10px;
+    box-shadow:1px 1px 0.5vw black;
+    height:5vh;
+    width:30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:20%;
+    
+}
+
+.container section .right .content .creerSecteur .error
+{
+    width:100%;
+    height:20%;
+  
+    display: flex;
+    width:80%;
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 3%;
+}
+
+   
+
+.container section .right .content .creerSecteur .error p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vw;
+    font-weight: 400;
+    width:100%;
+    color:wheat;
+
+    background-color: crimson;
+    margin-top:1%;
+    padding:1%;
+    border-radius:0.2vw;
+}
+
+.container section .right .content .creerSecteur form
+{
+    width:80%;
+    height:30%;
+  
+    display: flex;
+    flex-direction: column;
+}
+
+.container section .right .content .creerSecteur form .elements
+{
+    width:100%;
+    height:40%;
+  
+    display: flex;
+    margin-top: 2%;
+}
+
+.container section .right .content .creerSecteur form .elements label
+{
+    width:30%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    font-size: 1.2vw;
+}
+
+.container section .right .content .creerSecteur form .elements input
+{
+    width:60%;
+    height:90%;
+    font-size: 1.1vw;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border:0;
+    border-radius:5px;
+    padding:1% 2%;
+    box-shadow: 1px 1px 0.3vw black;
+}
+
+.container section .right .content .creerSecteur form .elements button
+{
+    width:60%;
+    height:90%;
+    font-size: 1.1vw;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border:0;
+    border-radius:5px;
+    padding:1% 2%;
+    box-shadow: 1px 1px 0.3vw black;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* *******************CREER FAMILLE***************** */
+
+
+.container section .right .content .creerFamille
+{
+    width:100%;
+    height:500px;
+    font-size: 1.1vw;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border:0;
+    border-radius:5px;
+    padding:1% 2%;
+    box-shadow: 1px 1px 0.3vw black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container section .right .content .creerFamille .titre
+{
+    width: 100%;
+    height:20%;
+    /* background-color: yellow; */
+    font-size: 1.5vw;
+    display: flex;
+    align-items: center;
+}
+
+.container section .right .content .creerFamille .error
+{
+    width: 100%;
+    height:20%;
+   
+    font-size: 1.2vw;
+    display: flex;
+    align-items: center;
+    margin-top: 2% 0%;
+}
+.container section .right .content .creerFamille .error p
+{
+    color: wheat;
+    padding:1%;
+    background-color: crimson;
+    border-radius:0.5vw;
+}
+
+.container section .right .content .creerFamille form
+{
+    width: 100%;
+    height:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+   
+}
+.container section .right .content .creerFamille form .elements
+{
+    width: 100%;
+    height:30%;
+    display: flex;
+    align-items: center;
+  
+    padding:0 1%;
+}
+
+.container section .right .content .creerFamille form .elements label
+{
+    width:30%;
+    height:80%;
+    display: flex;
+    align-items: center;
+  
+    font-size: 1.3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.container section .right .content .creerFamille form .elements input
+{
+    width:60%;
+    height:80%;
+    display: flex;
+    margin-left:1%;
+    align-items: center;
+   
+    font-size: 1.4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    border:1px solid black;
+    border-radius:0.5vw;
+    padding: 1% 3%;
+}
+
+.container section .right .content .creerFamille form .elements select
+{
+    width:60%;
+    height:80%;
+    display: flex;
+    margin-left:1%;
+    align-items: center;
+   
+    font-size: 1.4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    border:1px solid black;
+    border-radius:0.5vw;
+    padding: 1% 3%;
+}
+
+.container section .right .content .creerFamille form .elements button
+{
+    width:60%;
+    height:80%;
+    display: flex;
+    align-items: center;
+    
+    font-size: 1.4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    border:1px solid black;
+    border-radius:0.5vw;
+    padding: 1% 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+/* ***********************CREER UNE PERSONNE *************** */
+
+.container section .right .content .creerPersonne
+{
+    width:100%;
+    font-size: 1.1vw;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border:0;
+    border-radius:5px;
+    padding:1% 2%;
+    box-shadow: 1px 1px 0.3vw black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container section .right .content .creerPersonne .titre
+{
+   width: 100%;
+   height:60px;
+   
+   font-size: 1.5vw;
+   display: flex;
+   align-items: center;
+}
+
+
+.container section .right .content .creerPersonne .error
+{
+    width: 100%;
+   
+    font-size: 1.2vw;
+    display: flex;
+    flex-direction: column;
+  
+    padding-left:3%;
+}
+.container section .right .content .creerPersonne .error p
+{
+    color: wheat;
+    width: 80%;
+    height:35px;
+    background-color: crimson;
+    border-radius:0.5vw;
+    margin-bottom:1%;
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+}
+
+.container section .right .content .creerPersonne form
+{
+    margin-top: 2%;
+    width: 100%;
+    height:600px;
+   
+    font-size: 1.2vw;
+    display: flex;
+    flex-direction: column;
+   
+    padding-left:3%;
+}
+
+.container section .right .content .creerPersonne form .elements
+{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 10%;
+
+    margin-bottom:1%;
+  
+}
+.container section .right .content .creerPersonne form .elements label
+{
+    width:40%;
+    height:80%;
+    display: flex;
+    align-items: center;
+  
+    font-size: 1.3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+   
+}
+
+.container section .right .content .creerPersonne form .elements input
+{
+    width:60%;
+    height:100%;
+    display: flex;
+    margin-left:1%;
+    align-items: center;
+   
+    font-size: 1.4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    border:1px solid black;
+    border-radius:0.5vw;
+    padding: 1% 3%;
+   
+}
+
+.container section .right .content .creerPersonne form .elements .sexe
+{
+   width: 20%;
+   height:20px;
+   
+}
+.container section .right .content .creerPersonne form .elements button
+{
+    width:60%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    
+    font-size: 1.4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    border:1px solid black;
+    border-radius:0.5vw;
+    padding: 1% 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+/* ***********************VOIR UNE FAMILLE *************** */
+
+.container section .right .content .voirFamille
+{
+    width:100%;
+    font-size: 1.1vw;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border:0;
+    border-radius:5px;
+    padding:1% 2%;
+    box-shadow: 1px 1px 0.3vw black;
+    display: flex;
+   
+    flex-direction: column;
+}
+.container section .right .content .voirFamille h3,.container section .right .content .voirFamille h4
+{
+   text-transform: capitalize;
+}
+
+.container section .right .content .voirFamille .titre
+{
+    width:100%;
+    height: 50vh;
+    font-size: 1.1vw;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border:0;
+    border-radius:5px;
+    padding:1% 2%;
+    box-shadow: 1px 1px 0.3vw black;
+    display: flex;
+   
+   
+    flex-direction: column;
+}
+
+.container section .right .content .voirFamille .titre h3
+{
+    width: 100%;
+    height:8%;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    display: flex;
+    font-size: 1.3vw;
+    align-items: center;
+
+   
+    margin-bottom:1%;
+}
+.container section .right .content .voirFamille .titre .options
+{
+    width: 100%;
+    height:15%;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.container section .right .content .voirFamille .titre .options button
+{
+   width:18%;
+   height:100%;
+
+   
+    
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    border:1px solid black;
+    border-radius:0.5vw;
+    padding: 1% 3%;
+    
+}
+
+
+
+
+
+/* *********les parents */
+.container section .right .content .voirFamille .parent
+{
+    width:100%;
+    height: 70vh;
+    font-size: 1.1vw;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border:0;
+    border-radius:5px;
+    padding:1% 2%;
+    box-shadow: 1px 1px 0.3vw black;
+    display: flex;
+
+    flex-direction: column;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.container section .right .content .voirFamille .parent h3
+{
+    width:100%;
+    height:10%;
+
+    background-color:rgba(128, 128, 128, 0.726);
+    font-size: 1.4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.849);
+    padding-left:0.5%;
+    border-radius:0.2vw;
+
+}
+
+.container section .right .content .voirFamille .parent .detail
+{
+    width:100%;
+    height:75%;
+    margin-top: 1%;
+
+   
+
+}
+
+.container section .right .content .voirFamille .parent .detail h4
+{
+    width:100%;
+    height:6%;
+    margin-top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    display: flex;
+    font-size: 1.3vw;
+    align-items: center;
+
+  
+
+}
+
+
+.container section .right .content .voirFamille .parent .option
+{
+    width:100%;
+    height:15%;
+
+   
+    margin-top: 2%;
+    display: flex;
+
+    justify-content: space-between;
+   
+
+}
+
+.container section .right .content .voirFamille .parent .option button
+{
+    width:30%;
+    height:100%;
+ 
+    
+    box-shadow: 1px 1px 0.5vw black;
+     font-size: 1vw;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 600;
+     border:1px solid black;
+     border-radius:0.5vw;
+     padding: 1% 3%;
+     box-shadow: 1px 1px 0.5vw black;
+    
+}
+
+
+
+
+
+
+.container section .right .content .voirFamille .enfant
+{
+    width:100%;
+    height: 75vh;
+    font-size: 1.1vw;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border:0;
+    border-radius:5px;
+    padding:1% 2%;
+    box-shadow: 1px 1px 0.3vw black;
+    display: flex;
+
+    flex-direction: column;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.container section .right .content .voirFamille .enfant h3
+{
+    width:100%;
+    height:8%;
+
+    background-color:rgba(128, 128, 128, 0.726);
+    font-size: 1.4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.849);
+    padding-left:0.5%;
+    border-radius:0.2vw;
+
+}
+
+.container section .right .content .voirFamille .enfant .detail
+{
+    width:100%;
+    height:75%;
+    margin-top: 1%;
+
+   
+
+}
+
+.container section .right .content .voirFamille .enfant .detail h4
+{
+    width:100%;
+    height:6%;
+    margin-bottom: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    display: flex;
+    font-size: 1.3vw;
+    align-items: center;
+
+   
+
+}
+
+
+.container section .right .content .voirFamille .enfant .option
+{
+    width:100%;
+    height:10%;
+
+  
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container section .right .content .voirFamille .enfant .option button
+{
+    width:30%;
+    height:100%;
+ 
+    
+     
+     font-size: 1vw;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 600;
+     border:1px solid black;
+     border-radius:0.5vw;
+     padding: 1% 3%;
+     box-shadow: 1px 1px 0.5vw black;
+}
+
+.container section .right .content .voirFamille  .option form
+{
+    width:30%;
+    height:100%;
+   
+ 
+    
+     
+     font-size: 1vw;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 600;
+}
+
+.container section .right .content .voirFamille  .option form button
+{
+    width:100%;
+    height:100%;
+
+}
+.container section .right .content .voirFamille  .option form button i
+{
+   font-size: 2vw;
+   color: crimson;
+   font-weight: bolder;
+}
+
+
+
+
+
+/* ***********************VOIR UNE VOIRDOSSIERFAMILLE *************** */
+
+.container section .right .content .voirDossierPersonne
+{
+    width:100%;
+    font-size: 1.1vw;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border:0;
+    border-radius:5px;
+    padding:1% 2%;
+    box-shadow: 1px 1px 0.3vw black;
+    display: flex;
+ 
+    flex-direction: column;
+}
+
+.container section .right .content .voirDossierPersonne .titre
+{
+    width: 100%;
+    height:30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.container section .right .content .voirDossierPersonne .titre h3
+{
+    width: 100%;
+    height:25%;
+    background-color: rgba(128, 128, 128, 0.726);
+    font-size: 1.4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.849);
+    padding-left: 0.5%;
+    border-radius: 0.2vw;
+
+}
+
+.container section .right .content .voirDossierPersonne .titre .option
+{
+    width: 100%;
+    height:40%;
+    display: flex;
+    align-items: center;
+    
+    flex-wrap: wrap;
+
+}
+
+.container section .right .content .voirDossierPersonne .titre .option button
+{
+     width:20%;
+     height:80%;
+
+     border-radius: 0.5vw;
+     border: 1px solid black;
+     margin-right: 2%;
+     font-size: 1vw;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 600;
+     
+     box-shadow: 1px 1px 0.5vw black;
+
+}
+
+
+
+
+/* ********************CERTIFICAT  */
+
+.container section .right .content .voirDossierPersonne .certificat
+{
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container section .right .content .voirDossierPersonne .certificat .titreCertificat h3
+{
+    width: 100%;
+    height:50px;
+    background-color: rgba(128, 128, 128, 0.726);
+    font-size: 1.4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.849);
+    padding-left: 0.5%;
+    border-radius: 0.2vw;
+    margin-bottom: 2%;
+
+}
+
+
+.container section .right .content .voirDossierPersonne .certificat table
+{
+    width: 100%;
+    box-shadow: 1px 1px 0.5vw black;
+    padding: 1% 1%;
+    border-radius:0.5vw;
+    
+}
+
+.container section .right .content .voirDossierPersonne .certificat table tr
+{
+   height: 12vh;
+}
+
+.container section .right .content .voirDossierPersonne .certificat table tr.head 
+{
+    background-color: rgba(128, 128, 128, 0.849);
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4vw;
+    background-color: aliceblue;
+    padding-left: 1%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 0.5vw black;
+}
+
+
+.container section .right .content .voirDossierPersonne .certificat table tr.head .col-1
+{
+    width:5%;
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vw;
+    font-weight: 500;
+    
+}
+
+.container section .right .content .voirDossierPersonne .certificat table  .first
+{
+   padding-left: 1%;
+    
+}
+
+
+.container section .right .content .voirDossierPersonne .certificat table tr.head .col-3
+{
+    width:15%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vw;
+    font-weight: 500;
+   
+}
+
+.container section .right .content .voirDossierPersonne .certificat table tr .eft
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2vw;
+    font-weight: 500;
+    padding-right:1%;
+}
+
+.container section .right .content .voirDossierPersonne .certificat table tr .action
+{
+   
+    
+
+    margin-top:20px;
+    display: flex;
+    align-items: center;
+    border: 0;
+    
+}
+
+.container section .right .content .voirDossierPersonne .certificat table tr .action button
+{
+    width: 30%;
+    height: 30px;
+    font-size: 1vw;
+    background-color: white;
+    color: wheat;
+    border: 1px solid black;
+    border-radius: 1px;
+    font-weight: bolder;
+    margin-right:5%;
+}
+
+.container section .right .content .voirDossierPersonne .certificat table tr .action form
+{
+
+    width: 30%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.container section .right .content .voirDossierPersonne .certificat table tr .action form button
+{
+   width: 100%;
+   height:100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.container section .right .content .voirDossierPersonne .certificat table tr .action form button i
+{
+   width: 100%;
+   height:100%;
+   color: crimson;
+   font-size: 2vw;
+   cursor: pointer;
+}
+
+
+
+
+
+/* ***********************CERTIFICAT DE RESIDENCE ********** */
+.container section .right .content .creerResidence 
+{
+    width:100%;
+    font-size: 1.1vw;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border:0;
+    border-radius:5px;
+    padding:1% 2%;
+    box-shadow: 1px 1px 0.3vw black;
+    display: flex;
+ 
+    flex-direction: column;
+}
+
+
+.container section .right .content .creerResidence  h3
+{
+    width: 100%;
+    height:50px;
+    background-color: rgba(128, 128, 128, 0.726);
+    font-size: 1.4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.849);
+    padding-left: 0.5%;
+    border-radius: 0.2vw;
+
+}
+
+
+.container section .right .content .creerResidence .error
+{
+    width: 100%;
+   
+    font-size: 1.2vw;
+    display: flex;
+    flex-direction: column;
+  
+    padding-left:3%;
+    margin-top: 2%;
+}
+.container section .right .content .creerResidence .error p
+{
+    color: wheat;
+    width: 80%;
+    height:35px;
+    background-color: crimson;
+    border-radius:0.5vw;
+    margin-bottom:1%;
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+}
+
+.container section .right .content .creerResidence form
+{
+   width: 100%;
+   height:50vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content:space-between;
+   
+}
+.container section .right .content .creerResidence form .elements
+{
+   width: 100%;
+   height:13%;
+   display: flex;
+  
+}
+
+
+.container section .right .content .creerResidence form .elements label
+{
+    width:40%;
+    height:90%;
+    display: flex;
+    align-items: center;
+    font-size:1.2vw;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container section .right .content .creerResidence form .elements
+ input
+{
+    width:60%;
+    height:90%;
+    font-size: 1.1vw;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border:0;
+    border-radius:5px;
+    padding:1% 2%;
+    box-shadow: 1px 1px 0.3vw black;
+}
+
+.container section .right .content .creerResidence form .elements button
+{
+    width:100%;
+    height:90%;
+    font-size:1.2vw;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border:0;
+    border-radius:0.2vw;
+    padding:1% 2%;
+    box-shadow: 1px 1px 0.3vw black;
+}
+
+
+
+
+
+
+
+
+/* ***********************CERTIFICAT DE CELIBATAIRE  ********** */
+.container section .right .content .creerCelibataire
+{
+    width:100%;
+    font-size: 1.1vw;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border:0;
+    border-radius:5px;
+    padding:1% 2%;
+    box-shadow: 1px 1px 0.3vw black;
+    display: flex;
+ 
+    flex-direction: column;
+}
+
+
+.container section .right .content .creerCelibataire
+  h3
+{
+    width: 100%;
+    height:50px;
+    background-color: rgba(128, 128, 128, 0.726);
+    font-size: 1.4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.849);
+    padding-left: 0.5%;
+    border-radius: 0.2vw;
+
+}
+
+
+.container section .right .content .creerCelibataire .error
+{
+    width: 100%;
+   
+    font-size: 1.2vw;
+    display: flex;
+    flex-direction: column;
+  
+    padding-left:3%;
+    margin-top: 2%;
+}
+.container section .right .content .creerCelibataire
+ .error p
+{
+    color: wheat;
+    width: 80%;
+    height:35px;
+    background-color: crimson;
+    border-radius:0.5vw;
+    margin-bottom:1%;
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+}
+
+.container section .right .content .creerCelibataire
+ form
+{
+   width: 100%;
+   height:20vh;
+  
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content:space-between;
+   
+}
+.container section .right .content .creerCelibataire form .elements
+{
+   width: 100%;
+   height:40%;
+  
+   display: flex;
+  
+}
+
+
+.container section .right .content .creerCelibataire form .elements label
+{
+    width:40%;
+    height:90%;
+    display: flex;
+    align-items: center;
+    font-size:1.2vw;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container section .right .content .creerCelibataire form .elements
+ input
+{
+    width:60%;
+    height:90%;
+    font-size: 1.1vw;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border:0;
+    border-radius:5px;
+    padding:1% 2%;
+    box-shadow: 1px 1px 0.3vw black;
+}
+
+.container section .right .content .creerCelibataire form .elements button
+{
+    width:100%;
+    height:90%;
+    font-size:1.2vw;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border:0;
+    border-radius:0.2vw;
+    padding:1% 2%;
+    box-shadow: 1px 1px 0.3vw black;
+}
+
+
+
+
+
+
+
+/* **************************TABLE  */
+
+.container section .right .content .modifierTemoin 
+{
+    width:100%;
+    height:60vh;
+    font-size: 1.1vw;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border:0;
+    border-radius:5px;
+    padding:1% 2%;
+    box-shadow: 1px 1px 0.3vw black;
+    display: flex;
+ 
+    
+    flex-direction: column;
+}
+
+.container section .right .content .modifierTemoin h3
+{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(128, 128, 128, 0.726);
+    font-size: 1.4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.849);
+    padding-left: 0.5%;
+    border-radius: 0.2vw;
+    margin-bottom: 2%;
+}
+
+.container section .right .content .modifierTemoin table
+{
+    width: 100%;
+    box-shadow: 1px 1px 0.5vw black;
+    padding: 1% 1%;
+    border-radius:0.5vw;
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+
+
+.container section .right .content .modifierTemoin table tr
+{
+   height: 8vh;
+}
+
+.container section .right .content .modifierTemoin table tr.head
+{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4vw;
+    background-color: aliceblue;
+    padding-left: 1%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 0.5vw black;
+    height: 10vh;
+    
+}
+.container section .right .content .modifierTemoin table tr .col-2
+{
+   width:17%;
+}
+
+.container section .right .content .modifierTemoin table tr .eft
+{
+   font-size: 1.2vw;
+   padding-right: 1%;
+}
+
+.container section .right .content .modifierTemoin table tr .first
+{
+   padding-left: 1%;
+}
+
+.container section .right .content .modifierTemoin table tr .action button
+{
+   font-size: 1vw;
+   padding:2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ***********************CREER UN TEMOIN *************** */
+
+.container section .right .content .creerTemoin
+{
+    width:100%;
+    font-size: 1.1vw;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border:0;
+    border-radius:5px;
+    padding:1% 2%;
+    box-shadow: 1px 1px 0.3vw black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container section .right .content .creerTemoin h3
+{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(128, 128, 128, 0.726);
+    font-size: 1.4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.849);
+    padding-left: 0.5%;
+    border-radius: 0.2vw;
+    margin-bottom: 2%;
+}
+
+
+.container section .right .content .creerTemoin .error
+{
+    width: 100%;
+   
+    font-size: 1.2vw;
+    display: flex;
+    flex-direction: column;
+  
+    padding-left:3%;
+}
+.container section .right .content .creerTemoin .error p
+{
+    color: wheat;
+    width: 80%;
+    height:35px;
+    background-color: crimson;
+    border-radius:0.5vw;
+    margin-bottom:1%;
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+}
+
+.container section .right .content .creerTemoin form
+{
+    margin-top: 2%;
+    width: 100%;
+    height:800px;
+   
+    font-size: 1vw;
+    display: flex;
+    flex-direction: column;
+   
+    padding-left:3%;
+}
+
+.container section .right .content .creerTemoin form .elements
+{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 10%;
+
+    margin-bottom:1%;
+  
+}
+.container section .right .content .creerTemoin form .elements label
+{
+    width:40%;
+    height:80%;
+    display: flex;
+    align-items: center;
+  
+    font-size: 1.3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+   
+}
+
+.container section .right .content .creerTemoin form .elements input
+{
+    width:60%;
+    height:100%;
+    display: flex;
+    margin-left:1%;
+    align-items: center;
+   
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    border:1px solid black;
+    border-radius:0.5vw;
+    padding: 1% 3%;
+   
+}
+
+.container section .right .content .creerTemoin form .elements .sexe
+{
+   width: 20%;
+   height:20px;
+   
+}
+.container section .right .content .creerTemoin form .elements button
+{
+    width:60%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    
+    font-size: 1.4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    border:1px solid black;
+    border-radius:0.5vw;
+    padding: 1% 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+/* *****************************VOIR .creerPersonne  */
+
+
+.container section .right .content .voirPagePersonnes
+{
+    width:100%;
+    font-size: 1.1vw;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border:0;
+    border-radius:5px;
+    padding:1% 2%;
+    box-shadow: 1px 1px 0.3vw black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container section .right .content .voirPagePersonnes h3
+{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(128, 128, 128, 0.726);
+    font-size: 1.4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.849);
+    padding-left: 0.5%;
+    border-radius: 0.2vw;
+    margin-bottom: 2%;
+}
+
+.container section .right .content .voirPagePersonnes  table
+{
+    width: 100%;
+}
+
+.container section .right .content .voirPagePersonnes  table tr
+{
+    height:10vh;
+}
+
+.container section .right .content .voirPagePersonnes  table tr.head
+{
+    
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2vw;
+    background-color: aliceblue;
+    padding-left: 1%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 0.5vw black;
+    height: 13vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600;
+}
+
+.container section .right .content .voirPagePersonnes  table tr td.col-2
+{
+    width:8%;
+}
+
+.container section .right .content .voirPagePersonnes  table tr td.col-1
+{
+   
+    width:5%;
+}
+
+.container section .right .content .voirPagePersonnes  table tr td.col-3
+{
+   
+    width:5%;
+}
+
+.container section .right .content .voirPagePersonnes  table tr.valeur td
+{
+    font-size: 1.1vw;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:500;
+    
+
+    padding-right:2%;
+}
+
+.container section .right .content .voirPagePersonnes  table tr.valeur button
+{
+    width:4vw;
+    height:30px;
+    font-size:1.2vw;
+    border: 1px black solid;
+}
+
+.container section .right .content .voirPagePersonnes  table .first
+{
+    padding-left: 0.5%;
+}
+
+
+
+
+
+/* *****************************VOIR PAGES DOSSIERS  */
+
+
+.container section .right .content .voirPagesDossier
+{
+    width:100%;
+    font-size: 1.1vw;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border:0;
+    border-radius:5px;
+    padding:1% 1%;
+    box-shadow: 1px 1px 0.3vw black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container section .right .content .voirPagesDossier .residences
+{
+    width:100%;
+    font-size: 1.1vw;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border:0;
+    border-radius:5px;
+    padding:1% 2%;
+    box-shadow: 1px 1px 0.3vw black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.container section .right .content .voirPagesDossier h3
+{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(128, 128, 128, 0.726);
+    font-size: 1.4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.849);
+    padding-left: 0.5%;
+    border-radius: 0.2vw;
+    margin-bottom: 2%;
+}
+
+.container section .right .content .voirPagesDossier .residences table
+{
+   width: 100%;
+}
+
+
+.container section .right .content .voirPagesDossier .residences  table
+{
+    width: 100%;
+}
+
+
+.container section .right .content .voirPagesDossier .residences  table tr
+{
+    height:10vh;
+}
+
+
+.container section .right .content .voirPagesDossier .residences tr.head
+{
+    
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2vw;
+    background-color: aliceblue;
+    padding-left: 1%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 0.5vw black;
+    height: 13vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600;
+}
+
+.container section .right .content .voirPagesDossier .residences tr .col-1
+{
+    width:5%;
+}
+.container section .right .content .voirPagesDossier .residences tr .col-2
+{
+    width:15%;
+}
+.container section .right .content .voirPagesDossier .residences tr .col-3
+{
+    width:20%;
+}
+
+
+.container section .right .content .voirPagesDossier .residences  tr.valeur td
+{
+    font-size: 1.1vw;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:500;
+    
+
+    padding-right:2%;
+}
+
+.container section .right .content .voirPagesDossier .residences  .first
+{
+    padding-left: 0.5%;
+}
+
+
+.container section .right .content .voirPagesDossier .residences  table .actions
+{
+    display: flex;
+   
+    margin-top:15px;
+}
+
+
+.container section .right .content .voirPagesDossier .residences  table .actions button
+{
+   width:4vw;
+   height:30px;
+   font-size: 1.1vw;
+   border:1px solid black;
+   margin-left: 2%;
+}
+
+.container section .right .content .voirPagesDossier .residences  table .actions button i
+{
+   font-size:1.5vw;
+   color: crimson;
+}
+
+
+
+
+
+
+
+
+
+
+.container section .right .content .voirPagesDossier .celibataires
+{
+    margin-top: 5%;
+    width:100%;
+    font-size: 1.1vw;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border:0;
+    border-radius:5px;
+    padding:1% 2%;
+    box-shadow: 1px 1px 0.3vw black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.container section .right .content .voirPagesDossier h3
+{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(128, 128, 128, 0.726);
+    font-size: 1.4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.849);
+    padding-left: 0.5%;
+    border-radius: 0.2vw;
+    margin-bottom: 2%;
+}
+
+.container section .right .content .voirPagesDossier .celibataires table
+{
+   width: 100%;
+}
+
+
+.container section .right .content .voirPagesDossier .celibataires  table
+{
+    width: 100%;
+}
+
+
+.container section .right .content .voirPagesDossier .celibataires  table tr
+{
+    height:10vh;
+}
+
+
+.container section .right .content .voirPagesDossier .celibataires tr.head
+{
+    
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2vw;
+    background-color: aliceblue;
+    padding-left: 1%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 0.5vw black;
+    height: 13vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600;
+}
+
+.container section .right .content .voirPagesDossier .celibataires tr .col-1
+{
+    width:5%;
+}
+.container section .right .content .voirPagesDossier .celibataires tr .col-2
+{
+    width:15%;
+}
+.container section .right .content .voirPagesDossier .celibataires tr .col-3
+{
+    width:20%;
+}
+
+
+.container section .right .content .voirPagesDossier .celibataires  tr.valeur td
+{
+    font-size: 1.1vw;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:500;
+    
+
+    padding-right:2%;
+}
+
+.container section .right .content .voirPagesDossier .celibataires  .first
+{
+    padding-left: 0.5%;
+}
+
+
+.container section .right .content .voirPagesDossier .celibataires  table .actions
+{
+    display: flex;
+   
+    margin-top:15px;
+}
+
+
+.container section .right .content .voirPagesDossier .celibataires  table .actions button
+{
+   width:4vw;
+   height:30px;
+   font-size: 1.1vw;
+   border:1px solid black;
+   margin-left: 2%;
+}
+
+.container section .right .content .voirPagesDossier .celibataires  table .actions button i
+{
+   font-size:1.5vw;
+   color: crimson;
+}
+
+
